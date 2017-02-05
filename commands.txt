@@ -1,0 +1,29 @@
+The characters sent over BT by the app are as follows:
+
+Forward -> F
+Back -> B
+Left -> L
+Right -> R
+Forward Left -> G
+Forward Right -> I
+Back Left -> H
+Back Right -> J
+Stop -> S
+Front Lights On -> W
+Front Lights Off -> w
+Back Lights On -> U
+Back Lighst Off -> u
+Horn On -> V
+Horn Off -> v
+Extra On -> X
+Extra Off -> x
+Speed 0 -> 0
+Speed 10 -> 1
+Speed 20 -> 2
+Speed 30 -> 3
+.
+.
+.
+Speed 90 -> 9
+Speed 100 -> q
+Stop All -> D
