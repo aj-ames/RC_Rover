@@ -17,7 +17,6 @@
  *  Vin --> 3.3V
  *  Gnd --> Gnd
  */
-
  //Motor1 Right Wheel
 int m1d1=2;
 int m1d2=3;
@@ -33,23 +32,22 @@ void setup() {
   Serial.begin(9600);
 
   //Defining the pins of L298D
-
   pinMode(m1d1, OUTPUT);
   pinMode(m1d2, OUTPUT);
   pinMode(m1e, OUTPUT);
   pinMode(m2d1, OUTPUT);
   pinMode(m2d2, OUTPUT);
   pinMode(m2e, OUTPUT);
+  
 }
 
 void loop() {
-
   //Initialize the Serial Interface:
 
   if(Serial.available() > 0)
   {
-    int inco=Serial.read();
-
+    char inco=Serial.read();
+    Serial.print(inco);
     switch(inco)
     {
       case 'F':
